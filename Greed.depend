@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1731109100 source:d:\programacion\utn\2doc\programacion i\greed-grupo3\greed\menu.cpp
+	<iostream>
+	"menu.h"
+
+1731109588 d:\programacion\utn\2doc\programacion i\greed-grupo3\greed\menu.h
+
+1731108461 source:d:\programacion\utn\2doc\programacion i\greed-grupo3\greed\main.cpp
+	<iostream>
+	"menu.h"
+
