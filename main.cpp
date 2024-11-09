@@ -1,4 +1,5 @@
 #include <iostream>
+#include <ctime>
 #include "menu.h"
 
 using namespace std;
@@ -6,6 +7,8 @@ using namespace std;
 int main()
 {
 	int opcion;
+	//valor aleatorio
+	srand(time(0));
 
 	do{
 		system("cls");

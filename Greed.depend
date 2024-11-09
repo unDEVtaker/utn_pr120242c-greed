@@ -1,11 +1,36 @@
 # depslib dependency file v1.0
-1731109100 source:d:\programacion\utn\2doc\programacion i\greed-grupo3\greed\menu.cpp
+1731127129 source:d:\programacion\utn\2doc\programacion i\greed-grupo3\greed\menu.cpp
 	<iostream>
 	"menu.h"
+	"dados.h"
 
-1731109588 d:\programacion\utn\2doc\programacion i\greed-grupo3\greed\menu.h
+1731129566 d:\programacion\utn\2doc\programacion i\greed-grupo3\greed\menu.h
 
-1731108461 source:d:\programacion\utn\2doc\programacion i\greed-grupo3\greed\main.cpp
+1731121114 source:d:\programacion\utn\2doc\programacion i\greed-grupo3\greed\main.cpp
 	<iostream>
+	<ctime>
 	"menu.h"
+
+1731128888 d:\programacion\utn\2doc\programacion i\greed-grupo3\greed\dados.h
+
+1731129116 source:d:\programacion\utn\2doc\programacion i\greed-grupo3\greed\dados.cpp
+	<iostream>
+	"dados.h"
+	"puntajes.h"
+
+1731124672 source:d:\programacion\utn\2doc\programacion i\greed-grupo3\greed\configuracionjuego.cpp
+	<iostream>
+	"configuracionJuego.h"
+
+1731125041 d:\programacion\utn\2doc\programacion i\greed-grupo3\greed\configuracionjuego.h
+
+1731130248 source:d:\programacion\utn\2doc\programacion i\greed-grupo3\greed\juego.cpp
+	<iostream>
+	"dados.h"
+
+1731129100 source:d:\programacion\utn\2doc\programacion i\greed-grupo3\greed\puntajes.cpp
+	<iostream>
+	"puntajes.h"
+
+1731129100 d:\programacion\utn\2doc\programacion i\greed-grupo3\greed\puntajes.h
 

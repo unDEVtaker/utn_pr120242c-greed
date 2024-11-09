@@ -1,5 +1,8 @@
 #include <iostream>
 #include "menu.h"
+#include "dados.h"
+#include "juego.h"
+#include "puntajes.h"
 
 using namespace std;
 
@@ -21,22 +24,44 @@ int seleccionarOpcion()
   return opcion;
 }
 
-void ejecutarOpcion(int opcion){
-	switch(opcion){
-		case 1:
-			cout << "un jugador";
-			break;
-		case 2:
-			cout << "dos jugadoesr";
-			break;
-		case 3:
-			cout << "estadisticas";
-			break;
-		case 4:
-			cout << "creditos";
-			break;
-		case 0:
-			cout << "Gracias por jugar!!!"<< endl;
-			break;
-  }
+void ejecutarOpcion(int opcion) {
+    switch(opcion) {
+    	case 1:
+    system("cls");
+    cout << "Partida de un jugador" << endl;
+
+    system("pause");
+    break;
+        case 2:
+            system("cls");
+            cout << "Partida de dos jugadores" << endl;
+            // Código para dos jugadores
+            system("pause");
+            break;
+
+        case 3:
+            system("cls");
+            cout << "Estadísticas" << endl;
+            // Código para mostrar estadísticas
+            system("pause");
+            break;
+
+        case 4:
+            system("cls");
+            cout << "Créditos" << endl;
+            // Código para mostrar créditos
+            system("pause");
+            break;
+
+        case 0:
+            system("cls");
+            cout << "Gracias por jugar!!!" << endl;
+            system("pause");
+            break;
+
+        default:
+            cout << "Esa opción no está en el menú." << endl;
+            system("pause");
+            break;
+    }
 }
