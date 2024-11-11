@@ -1,8 +1,8 @@
 #include <iostream>
 #include "menu.h"
 #include "dados.h"
-#include "juego.h"
-#include "puntajes.h"
+#include "unJugador.h"
+#include "creditos.h"
 
 using namespace std;
 
@@ -27,11 +27,11 @@ int seleccionarOpcion()
 void ejecutarOpcion(int opcion) {
     switch(opcion) {
     	case 1:
-    system("cls");
-    cout << "Partida de un jugador" << endl;
-
-    system("pause");
-    break;
+		system("cls");
+		cout << "Partida de un jugador" << endl;
+		jugarUnJugador();
+		system("pause");
+		break;
         case 2:
             system("cls");
             cout << "Partida de dos jugadores" << endl;
@@ -41,15 +41,14 @@ void ejecutarOpcion(int opcion) {
 
         case 3:
             system("cls");
-            cout << "Estadísticas" << endl;
-            // Código para mostrar estadísticas
+            cout << "Estadisticas" << endl;
+            // Codigo para mostrar estadisticas
             system("pause");
             break;
 
         case 4:
             system("cls");
-            cout << "Créditos" << endl;
-            // Código para mostrar créditos
+            mostrarEquipo();
             system("pause");
             break;
 

@@ -1,8 +1,10 @@
 # depslib dependency file v1.0
-1731127129 source:d:\programacion\utn\2doc\programacion i\greed-grupo3\greed\menu.cpp
+1731288540 source:d:\programacion\utn\2doc\programacion i\greed-grupo3\greed\menu.cpp
 	<iostream>
 	"menu.h"
 	"dados.h"
+	"unJugador.h"
+	"creditos.h"
 
 1731129566 d:\programacion\utn\2doc\programacion i\greed-grupo3\greed\menu.h
 
@@ -11,12 +13,11 @@
 	<ctime>
 	"menu.h"
 
-1731128888 d:\programacion\utn\2doc\programacion i\greed-grupo3\greed\dados.h
+1731130570 d:\programacion\utn\2doc\programacion i\greed-grupo3\greed\dados.h
 
-1731129116 source:d:\programacion\utn\2doc\programacion i\greed-grupo3\greed\dados.cpp
+1731289127 source:d:\programacion\utn\2doc\programacion i\greed-grupo3\greed\dados.cpp
 	<iostream>
 	"dados.h"
-	"puntajes.h"
 
 1731124672 source:d:\programacion\utn\2doc\programacion i\greed-grupo3\greed\configuracionjuego.cpp
 	<iostream>
@@ -33,4 +34,16 @@
 	"puntajes.h"
 
 1731129100 d:\programacion\utn\2doc\programacion i\greed-grupo3\greed\puntajes.h
+
+1731289127 source:d:\programacion\utn\2doc\programacion i\greed-grupo3\greed\unjugador.cpp
+	<iostream>
+	"dados.h"
+
+1731285097 d:\programacion\utn\2doc\programacion i\greed-grupo3\greed\unjugador.h
+
+1731288645 source:d:\programacion\utn\2doc\programacion i\greed-grupo3\greed\creditos.cpp
+	<iostream>
+	"creditos.h"
+
+1731288482 d:\programacion\utn\2doc\programacion i\greed-grupo3\greed\creditos.h
 
