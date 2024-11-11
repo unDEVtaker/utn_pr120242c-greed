@@ -35,6 +35,8 @@ void mostrarBloqueadores(int bloqueadores[], int cantidad) {
     cout << endl;
 }
 
+/*
+//esta funcion es la orignal pero no termina de manejar bien los bloqueadores
 int revisarBloqueadores(int vDados[], int &cantidadDados, int bloqueadores[], int cantidadBloqueadores) {
     int dadosPerdidos = 0;
     for (int i = 0; i < cantidadDados; i++) {
@@ -49,3 +51,26 @@ int revisarBloqueadores(int vDados[], int &cantidadDados, int bloqueadores[], in
     cantidadDados -= dadosPerdidos;  // Reduce la cantidad de dados disponibles
     return dadosPerdidos;
 }
+*/
+
+int revisarBloqueadores(int vDados[], int &cantidadDados, int bloqueadores[], int cantidadBloqueadores) {
+    int dadosPerdidos = 0;
+    int indiceValido = 0;
+    for(int i = 0; i < cantidadDados; i++){
+        bool esBloqueado = false;
+        for(int j = 0; j < cantidadBloqueadores; j++){
+            if (vDados[i] == bloqueadores[j]) {
+                esBloqueado = true;
+                dadosPerdidos++;
+                break;
+            }
+        }
+        if(!esBloqueado){
+            vDados[indiceValido] = vDados[i];
+            indiceValido++;
+        }
+    }
+    cantidadDados = indiceValido;
+    return dadosPerdidos;
+}
+
