@@ -10,7 +10,9 @@ void jugarUnJugador() {
 
     // Solicitar el nombre del jugador
     cout << "Ingrese su nombre: ";
-    cin >> nombre;
+    cin.ignore(); //visto en clase para ignorar el espacio si se ingresan mas de una palabra
+    getline(cin,nombre);
+
     system("cls");
 
     while (ronda <= 3) {
@@ -74,4 +76,5 @@ void jugarUnJugador() {
     cout << "Juego terminado!!!" << endl;
     cout << "Puntaje final de " << nombre << ": " << totalPuntaje << endl;
     cout << "**********************************" << endl;
+
 }

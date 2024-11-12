@@ -8,6 +8,7 @@ void mostrarEquipo(){
     cout << "##################################" << endl;
 	cout << "#                                #" << endl;
     cout << "# Jonatan Silva - Lagajo:31144   #" << endl;
+	cout << "# Joel Obregón - Lagajo:31067    #" << endl;
     cout << "#                                #" << endl;
     cout << "##################################" << endl;
 }

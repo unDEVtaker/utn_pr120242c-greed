@@ -1,6 +1,7 @@
 #include <iostream>
 #include <ctime>
 #include "menu.h"
+#include "colores.h"
 
 using namespace std;
 
@@ -14,8 +15,7 @@ int main()
 		system("cls");
 		opcion = seleccionarOpcion();
 		ejecutarOpcion(opcion);
-		cout << "Presione cualquier tecla para continuar ...";
-		system("pause>nul");
+		system("pause");
 	}
 
 	while(opcion != 0);
