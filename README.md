@@ -29,9 +29,6 @@ Permite a dos jugadores competir. Se solicita el nombre de ambos jugadores. Si a
 ### 📊 Estadísticas
 Muestra el nombre y puntaje del jugador con el puntaje más alto, si existe. Las estadísticas se restablecen al cerrar la aplicación.
 
-### 🏆 Créditos
-Muestra el nombre del equipo desarrollador, junto con legajos, apellidos y nombres.
-
 ### ⚙️ Consideraciones Importantes
 El proyecto está desarrollado en C++ como aplicación de consola.
 
